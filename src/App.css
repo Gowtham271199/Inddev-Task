@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  background-color: #87CEEB; /* Light Sky Blue background color */
+  min-height: 100vh; /* Ensure the background covers the full viewport height */
+  margin: 0; /* Remove default margin */
 }
 
 .App-logo {
@@ -14,7 +17,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: rgba(40, 44, 52, 0.8); /* Semi-transparent background for header */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,6 +25,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding: 20px; /* Optional padding */
 }
 
 .App-link {
